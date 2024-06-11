@@ -1,0 +1,58 @@
+
+.item{
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+.cont{
+    background-color: #242424;
+    display: flex;
+    border-radius: 10px;
+
+}
+.ItemInfo1{
+    width: -webkit-fill-available;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+.ItemInfo1 h6{
+    width: 100%;
+    /* font-weight: bold; */
+}
+
+.ItemInfo2{
+    margin-top: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+.delete{
+    width: 80px;
+    height: 40px;
+    border: none;
+    margin-top: 15px;
+
+    background-color: #363636;
+    border-radius: 10px;
+    color: white;
+
+}
+.date
+{
+    width: 70px;
+    height: 40px;
+    margin-top: 15px;
+    background-color: #363636;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+    margin-right: 5px;
+}

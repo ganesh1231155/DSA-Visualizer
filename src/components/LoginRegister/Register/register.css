@@ -1,0 +1,95 @@
+.RegCard{
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #242424;
+    align-content: center;
+    overflow: auto;
+    border-radius: 10px;
+
+}
+.frame> .card2{
+    margin: auto;
+    margin-top: 10px;
+    width: 500px;
+    height: 550px;
+   
+}
+.RegCard> h2{
+    background-color: #484848;
+    color: rgb(255, 255, 255);
+    border-radius:10px ;
+    text-align: center;
+
+}
+.RegCard>h2:hover{
+    background-color: white;
+    color: black;
+
+}
+.register{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.register>.InputField{
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.Loader{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 100px;
+    justify-content: center;
+    margin-top: 5px;
+    visibility: hidden;
+}
+.bar{
+    width: 15px;
+    height: 15px;
+    background-color: aqua;
+    margin: 2px;
+    border-radius: 50%;
+    animation: rotateBar 1s infinite ;
+}
+
+.bar:nth-child(1){
+    background-color: yellow;
+}
+.bar:nth-child(2){
+    background-color: red;
+    animation-delay: 0.2s;
+}
+.bar:nth-child(3){
+    background-color: rgb(253, 101, 0);
+    animation-delay: 0.4s;
+}
+.bar:nth-child(4){
+    background-color: rgb(247, 57, 89);
+    animation-delay: 0.6s;
+}
+.bar:nth-child(5){
+    background-color: purple;
+
+    animation-delay: 0.8s;
+}
+
+@keyframes rotateBar{
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(0.3);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    75%{
+        transform: scale(0.7);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

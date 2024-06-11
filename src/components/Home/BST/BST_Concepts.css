@@ -1,0 +1,81 @@
+.container{
+    /* display: flex; */
+    padding: 10px;
+    
+    /* background-color: blue; */
+}
+.main{
+    padding-bottom: 40px;
+}
+.info{
+    font-size: 18px;
+}
+.orderInfo{
+    display: flex;
+
+}
+.orderInfo_item{
+    margin:20px;
+    padding: 20px;
+    font-size: 20px;
+}
+.codeArea{
+    margin-left: 13%;
+    align-self: center;
+    width:75%;
+    height:fit-content;
+    background-color: black;
+    overflow: hidden;
+}
+
+/* .codeArea::-webkit-scrollbar{
+    display: none;
+    width: 0px;
+    height: 0px;
+} */
+.codeAreaButton{
+    width: 15%;
+    height: 100%;
+    border: none;
+    color: white;
+    background-color: #121212;
+    margin-left: 5px;
+}
+.codeAreaButtons{
+    height: 10%;
+    /* position: fixed; */
+}
+.codeDiv{
+    overflow: scroll;
+    margin: 10px;
+    /* margin-top: 20px; */
+    width: 97%;
+    height: fit-content;
+    background-color: #242424;
+}
+.codeAreaButton:hover{
+    background-color: #242424;
+
+}
+.x{
+    color: blue;
+    font-size: 50px;
+}
+
+.copyImg{
+    width: 50px;
+    height:98%;
+    
+    margin-left: 5px;
+    border-radius: 20px;
+    background: #000000;
+}
+h3{
+    color:  #d87034;
+}
+
+.imgTree{
+    width: 300px;
+    height: 300px;
+    border-radius: 0px;
+}

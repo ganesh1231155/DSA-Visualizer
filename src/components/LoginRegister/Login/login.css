@@ -1,0 +1,206 @@
+.LoginCard{
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #242424;
+    align-content: center;
+
+}
+.card{
+    background-color: #242424;
+}
+.LoginCard> h2{
+    background-color: #484848;
+    color: rgb(255, 255, 255);
+
+    border-radius:10px ;
+    text-align: center;
+}
+.frame> .card{
+    margin: auto;
+    margin-top: 10px;
+    width: 500px;
+    height: 540px;
+   
+}
+.frame{
+   
+    display: flex;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    /* top :0; */
+    /* min-width: 400px; */
+    background-color: #000000;
+    /* overflow-x: hidden; */
+    /* padding-top: 5px;  */
+}
+b{
+    color: white;
+}
+.login{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.link{
+text-decoration:underline;
+color: rgb(45, 45, 218);
+font-weight: bold;
+}
+.link:hover{
+    color: rgb(141, 38, 141);
+}
+.InputField{
+    margin-top: 2px;;
+    width: 100%;
+    height : 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #484848;
+    color: white;
+}
+.InputField:hover{
+    transform: scale(1.03);
+    box-shadow: 7px 7px 10px black;
+}
+
+.btn-login{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+}
+
+.btn-google{
+    width: 48%;
+}
+.btn-facebook{
+    width: 48%;
+}
+.facebook{
+    color: white;
+    margin: auto;
+    width: 100%;
+    background-color: #3B5998;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border-radius: 5px;
+    justify-content: space-around;
+    transition: 0;
+}
+.google{
+    margin: auto;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border-radius: 5px;
+    justify-content: space-around;
+    transition: 0;
+}
+.facebook:hover{
+    transform: scale(1.15);
+    box-shadow: 7px  7px 10px #002168;
+}
+.google:hover{
+    /* transform: scale(1.01); */
+    transform: scale(1.15);
+    box-shadow: 7px 7px 10px black;
+}
+
+.submit{
+    border: none;
+    border-radius: 5px;
+    width:30%;
+
+}
+
+.submit:hover{
+    transform: scale(1.15);
+    box-shadow: 7px 7px 10px black;
+
+}
+
+
+.submit>b{
+    font-size: 20px;
+    color: black;
+}
+
+.google>.g{
+    color: blue;
+}
+.google>.o1{
+    color: red;
+}
+.google>.o2{
+    color: yellow;
+}
+.google>.l{
+    color: green;
+}
+
+h5{
+    color: rgb(37, 37, 255);
+    text-align: center;
+}
+
+
+.Loader{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 100px;
+    justify-content: center;
+    margin-top: 5px;
+    visibility: hidden;
+}
+.bar{
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+    border-radius: 50%;
+    animation: rotateBar 1s infinite ;
+}
+.bar:nth-child(1){
+    background-color: yellow;
+}
+.bar:nth-child(2){
+    background-color: red;
+    animation-delay: 0.2s;
+}
+.bar:nth-child(3){
+    background-color: rgb(253, 101, 0);
+    animation-delay: 0.4s;
+}
+.bar:nth-child(4){
+    background-color: rgb(247, 57, 89);
+    animation-delay: 0.6s;
+}
+.bar:nth-child(5){
+    background-color: purple;
+
+    animation-delay: 0.8s;
+}
+
+
+@keyframes rotateBar{
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(0.3);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    75%{
+        transform: scale(0.7);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

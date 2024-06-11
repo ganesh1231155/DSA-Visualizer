@@ -1,0 +1,83 @@
+
+
+.userInfoBar{
+    width: 100%;
+    margin-top: 5px;
+    height: 10%;
+    background-color: #121212;
+    border-radius: 10px;
+}
+.frame
+{
+    flex-direction: column;
+}
+
+
+img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 0;
+    border-radius: 50%;
+    background-color: black;
+}
+.userData{
+    margin: auto;
+}
+.userInfo>.marq{
+    width: 150px;
+    height: 100%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.userName{
+    color: white;
+    font-weight: bold;
+}
+.userLoginDiv{
+    margin-left: auto;
+    /* background-color: #44107a; */
+    width: 200px;
+    height: 100%;
+}
+.button{
+    width: auto;
+    height: 75%;
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    margin-top: 6px;
+    font-weight: bold;
+}
+.button:hover{
+   transform: scale(1.1);
+   box-shadow: 7px 7px 10px rgb(0, 0, 0);
+}
+
+
+.userInfo>h6{
+    position:fixed;
+    width :220px;
+    margin-left: 10%;
+    margin-top: auto;
+    background-color: aqua;
+    border: 3px solid black;
+}
+
+.userInfo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    margin-left: 0;
+    /* background: #000; */
+    flex-direction: row;
+}
+
+.noData{
+    width: 100%;
+    text-align: center;
+    margin-top: 250px;
+    color: rgb(255, 18, 18);
+
+}
